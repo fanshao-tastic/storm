@@ -167,7 +167,7 @@ public class ReachTopology {
     builder.addBolt(new CountAggregator(), 3).fieldsGrouping(new Fields("id"));
     return builder;
   }
-
+//first change
   public static void main(String[] args) throws Exception {
     LinearDRPCTopologyBuilder builder = construct();
 
